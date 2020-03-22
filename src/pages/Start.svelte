@@ -23,7 +23,7 @@
   }
 </style>
 
-<h1>Start</h1>
+<h1>Allein zu Haus und Lust auf ein Gespräch?</h1>
 
 <pre>
   Mollit mollit laborum cillum culpa. Mollit deserunt voluptate laboris ea

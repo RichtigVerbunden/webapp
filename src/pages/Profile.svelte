@@ -6,6 +6,7 @@
   import userStore from "../stores/user";
 
   export let userId;
+  // let user = getUserById(userId);
 
   let user = {};
   userStore.subscribe(u => {
