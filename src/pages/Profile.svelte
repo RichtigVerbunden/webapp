@@ -1,0 +1,21 @@
+<script>
+  import Button from "@smui/button";
+  import { Link } from "svelte-routing";
+  import * as consts from "../constants";
+
+  import userStore from "../stores/user";
+
+  export let userId;
+  // let user = getUserById(userId);
+
+  let user = {};
+  userStore.subscribe(u => {
+    user = { ...u };
+  });
+</script>
+
+<h2>{user.name}'s Profil</h2>
+
+<Button>
+  <Link to={consts.PAGE_DASHBOARD}>Zurück</Link>
+</Button>
