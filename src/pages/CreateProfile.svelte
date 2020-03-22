@@ -65,7 +65,7 @@
 
   $: validated = validators[flow[step]];
 
-  let step = 3;
+  let step = 0;
 
   function toggleInterest(interest) {
     const i = user.interests.indexOf(interest);
